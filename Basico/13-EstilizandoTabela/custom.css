@@ -1,0 +1,21 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid #222222;
+    border-collapse: collapse; /* Tira a duplicação das linha por conta do th e table  */
+}
+th{
+    background-color: #264696;
+    color:#fff;
+}
+.conteudo{
+    text-align: left;
+}
+.acoes{
+    text-align: center;
+}

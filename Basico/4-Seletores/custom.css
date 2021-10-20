@@ -1,0 +1,33 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+/* Seletor por tipo */
+h1 {
+    color: green;
+}
+p {
+    color: green;
+}
+/* Seletor descendente */
+p span{
+    color: red;
+}
+/* Seletor pseudo-classe: Classes já definidas pelo CSS: hover */
+a:hover{
+    color:gold;
+}
+/* Selector de identificação única: id*/
+#menu{
+    color: blue;
+}
+#conteudo{
+    color: indigo;
+}   
+/* Selector de identificação mútilpa: class*/
+.cont_destaque{
+    color: orange;
+}
+.cont_mais_acessado{
+    font-size:23px;
+}

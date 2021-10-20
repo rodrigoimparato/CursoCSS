@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body>
+       <h1>Seletor por tipo</h1>
+       <p>Seletor por tipo: Este seletor é aplicado a TODAS as tags do mesmo tipo. </p>
+       <hr>
+       <p>
+           <span>
+            Seletor descendente que só é valido para o conteúdo que está dentro de 'p' + 'span'
+           </span>
+           <span>
+               Pode selecionar um ou mais elementos que estão dentro de outro, ou seja, <br>
+               que SÂO descendente do elemento principal.
+           </span>
+       </p>
+       <span>
+        O conteúdo que está dentro de 'span' NÃO recebe a cor porque está fora de 'p'.
+       </span>
+       
+       <hr>
+       
+       <br>
+       <a href="#">
+            Pseudo-classes: São tipos de classes especiais que não são definidas pelo desenvolvedor<br>
+            porque já são pré-definidas. Exemplo: 'a:hover'
+       </a>
+       <br>
+
+       <hr>
+
+       <h3>Id</h3>
+       <div id="menu">
+            Id(#): Identificação única. Só pode ser utilizada uma vez no documento inteiro. <br>
+            Normalmente é utilizada para identificar elementos estruturais da página. 
+            Exemplo: 'div id=cabecalho'
+       </div>
+
+       <h3>class</h3>
+       <div class="cont_destaque">
+            Classes(.): Identificação multipla. Pode ser utilizada multiplas vez no documento inteiro. <br>            
+            Exemplo: 'div class=titulo'
+        </div>
+        <div class="cont_destaque cont_mais_acessado">
+            Também pode combinar mais de 2 seletores em um mesmo atributo class. 
+            Exemplo: 'div class=cont_destque cont_mais_acessado '
+        </div>
+
+
+    </body>
+</html>

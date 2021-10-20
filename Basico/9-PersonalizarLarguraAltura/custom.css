@@ -1,0 +1,28 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+header{
+    width: 200px;
+    background-color: #ffd700;
+}
+#px200{
+    width: 200px;
+    background-color: burlywood;
+}
+#perc50{
+    width: 50%;
+    background-color: aqua;
+}
+#perc100{
+    width: 100%;
+    background-color: brown;
+}
+nav{
+    max-width: 90%;
+    min-width: 100px;
+
+    max-height: 50px;
+    min-height: 50px;
+    background-color: #008000;
+}

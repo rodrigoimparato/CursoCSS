@@ -1,0 +1,21 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+header{
+    background-color: #6800ff;
+    color: #fff;
+    margin-top: 60px;    
+    height: 100%;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-left: 70px;
+}
+
+section{
+    background-color: #004500;
+    /* margin: 15px 30px; */
+    color: #fff;
+    padding: 10px;
+}
